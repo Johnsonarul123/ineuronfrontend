@@ -1,0 +1,78 @@
+nav{
+   display: flex;
+   justify-content: space-around;
+   
+}
+nav ul{
+    display: flex;
+}
+
+nav li{
+  padding: 30px;
+  list-style: none;
+}
+
+.light{
+    color: #758283;
+}
+nav button{
+    
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 35px;
+    background-color: #383CC1;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    
+}
+
+
+
+/* navbar ends */
+
+.row{
+    display: flex;
+    
+    padding: 30px;
+}
+
+.hero {
+    position: relative;
+    left: 10%;
+    
+    
+}
+
+.hero h1{
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #434469;
+}
+
+.hero p{
+    font-size: medium;
+    color: #758283;
+    padding: 10px;
+}
+
+.hero span{
+    color: #383CC1;
+}
+
+.h img{
+    width: 40vw;
+    position: relative;
+    left: 50%;
+}
+
+.hero button{
+    background-color: #383CC1;
+    color: antiquewhite;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border: none;
+}
