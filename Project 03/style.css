@@ -5,6 +5,8 @@
 
 .list-item{
     list-style: none;
+    font-family: fantasy;
+    width: 80px;
     
     
 }
@@ -26,9 +28,10 @@
 
 .nav-button{
     position: relative;
+    background-color: rgb(249, 249, 249);
     top: 20px;
     padding: 10px;
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     width: 140px;
 }
@@ -57,10 +60,24 @@
 
 .star{
    position: relative;
+   display: flex;
+   top: 70px;
+   left: -30px;
    margin-top: auto;
+   
 }
 
-.globe{
+.star1{
+    position: relative;
+    left: 25%;
+    top: 60px;
+}
+
+.globe img{
+    position:relative;
+    left: -200%;
+    top: 5%;
+    width: 60px;
 
 }
 
@@ -110,12 +127,17 @@ h4.contact-heading{
 .button-email{
     position: relative;
     padding:2% 5%;
+    background-color: white;
     border-radius: 10px;
     left: -90px;
 }
 
 .button-join{
     position: relative;
+    background-color: black;
+    
+    
+    color: white;
     padding:2% 5%;
     border-radius: 10px;
     left: -90px;
