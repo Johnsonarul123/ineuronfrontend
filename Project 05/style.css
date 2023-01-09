@@ -1,0 +1,72 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    
+    
+}
+
+nav li{
+   list-style: none;
+   margin-left: 80px;
+   margin-right: 90px;
+   font-size: medium;
+   font-weight: 700;
+   
+}
+
+.main{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+   
+   position: relative;
+   width: 50%;
+   margin-top: 5%;
+
+}
+
+.content h1{
+    font-size: 5vw;
+}
+.content h5{
+    font-size: x-small;
+}
+
+.content button{
+    width: 50%;
+    height: 5%;
+    border-radius: 50px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(25, 237, 121);
+}
+
+.photos{
+    /* display: flex; */
+    
+}
+#first{
+    position: absolute;
+    right: 5%;
+    bottom: 4%;
+}
+
+#second{
+    position: absolute;
+    right: -1.5%;
+    bottom: 5%;
+    
+    
+    
+}
+
+#third{
+    position: relative;
+    
+}

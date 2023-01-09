@@ -6,9 +6,12 @@ nav ul{
     list-style: none;
     display: flex;
     margin-left: 8%;
-    
-
 }
+
+.navbarli{
+    margin-top: .5%;
+}
+
 
 li{
     margin-right: 5%;
@@ -32,13 +35,20 @@ li{
 }
 
 #text button{
-    padding: 2%;
+    padding: 2.5%;
+    border: none;
     border-radius: 10px;
     background-color: green;
     color: aliceblue;
 }
 .photos{
    
-    margin-left: 10%;
-    
+    margin-left: 10%;   
+}
+
+.photos img{
+   
+}
+.third{
+    margin-top: 2%;
 }
