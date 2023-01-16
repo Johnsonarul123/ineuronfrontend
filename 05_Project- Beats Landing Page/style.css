@@ -1,0 +1,46 @@
+.container{
+    border:5px solid rgb(243, 8, 8);
+    
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    display:flex ;
+}
+
+.hosting1{
+    border:2px solid green;
+
+}
+.hosting2{
+    border:2px solid green;
+
+}
+.hosting3{
+    border:2px solid green;
+
+}
+.hosting4{
+    border:2px solid green;
+
+}
+.hosting5{
+    border:2px solid green;
+
+}
+.hosting6{
+    border:2px solid green;
+
+}
+.hosting7{
+    border:2px solid green;
+
+}
+.hosting8{
+    border:2px solid green;
+
+}

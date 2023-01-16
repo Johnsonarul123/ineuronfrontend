@@ -1,0 +1,76 @@
+.container{
+    border:5px solid rgb(243, 8, 8);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    margin:10px;
+}
+.hosting1{
+    border:2px solid green;
+
+
+}
+.hosting1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+.hosting1 li{
+    margin: 2%;
+}
+.hosting2{
+    border:2px solid green;
+
+}
+.hosting3{
+    border:2px solid green;
+
+}
+.modern_trend{
+    display: flex;
+}
+.hosting4{
+    border:2px solid green;
+
+}
+.hosting5{
+    border:2px solid green;
+
+}
+.hosting6{
+    border:2px solid green;
+
+}
+.hosting7{
+    border:2px solid green;
+
+}
+.hosting8{
+    border:2px solid green;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo ul{
+   display: flex;
+   list-style: none;
+}
+.footer_list{
+    display:flex ;
+}
+.footer_list ul{
+   
+    list-style: none;
+}

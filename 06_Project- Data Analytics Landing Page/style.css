@@ -1,0 +1,79 @@
+.container{
+    border:5px solid rgb(243, 8, 8);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.hosting1{
+    border:2px solid green;
+    display: flex;
+
+}
+.hosting2{
+    border:2px solid green;
+    text-align: center;
+
+}
+
+.insight_three_column{
+    display: flex;
+    justify-content: center;
+}
+.hosting3{
+    border:2px solid green;
+    display: flex;
+
+}
+.hosting4{
+    border:2px solid green;
+    display: flex;
+
+}
+.hosting5{
+    border:2px solid green;
+    text-align: center;
+
+}
+.hosting6{
+    border:2px solid green;
+    
+
+}
+.hosting6 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.hosting7{
+    border:2px solid green;
+    display: flex;
+
+}
+.hosting8{
+    border:2px solid green;
+
+}
+footer{
+    display: flex;
+}
+.footer_logo ul{
+    display: flex;
+}
+footer ul{
+    list-style: none;
+    
+}
+.footer_links{
+    display: flex;
+}
+.newsletter section{
+    display: flex;
+}

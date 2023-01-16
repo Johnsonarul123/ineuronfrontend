@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope';
+    
+}
+
+/* *::after{
+    box-sizing: border-box;
+} */
+navbar{
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+navbar img{
+    width: 80px;
+}
+navbar ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    
+}
+
+navbar li{
+    margin: 10px 0 0 20px;
+    
+}
+navbar button{
+    margin: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.main{
+    border: 2px solid rgb(15, 9, 186);
+}
+
+.hero{
+    border: 2px solid green;
+    /* display: flex; */
+    margin: 40px 0px 40px 0;
+   
+   
+
+    
+}
+.hero h1{
+    margin-left: 15%;
+    font-size: 4.7rem;
+    margin-bottom: 30px;
+}
+.hero img{
+    position: absolute;
+    max-width: 670px;
+    
+    transform: translate(730px,-50px);
+}
+/* .hero_img imgs{
+    height: 500px;
+} */
+
+/* .hero-first img{
+    position: relative;
+    left: 60%;
+    
+    width: 400px;
+} */
+
+.hero-first{
+    background-color: antiquewhite;
+}
+.hero-first h1{
+    position: relative;
+    
+    
+}
+.hero_button{
+    margin-left: 15%;
+    margin-bottom: 70px;
+}
+.hero-first p{
+    margin-left: 15%;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+}
+.side-column{
+    display: flex;
+    margin-left: 15%;
+    
+}
+.sidetwo-column{
+    display: flex;
+}
+.logo ul{
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.logo ul img{
+    width: 80px;
+}
+
+.trans{
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+    gap: 8%;
+    padding: 40px;
+    
+}
+
+.trans h3{
+    font-size:smaller;
+    margin-top: 8%;
+    
+    
+}
+.interesting{
+border: 2px solid green;
+text-align: center;
+padding: 40px;
+}
+
+.interesting img{
+    width: 50vw;
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+
+    
+}
+.customer{
+border: 2px solid green;
+padding: 40px;
+
+}
+.customer-content{
+    text-align: center;
+}
+.lowerbanner{
+border: 2px solid green;
+}
+
+
+
+.squares{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(234, 205, 18);
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.one-square{
+    border: 2px solid red;
+    position: relative;
+    left: 14%;
+    top:10px;
+    background-color: black;
+}
+.two-square{
+    border: 2px solid red;
+    background-color: black;
+    position: relative;
+}
+.three-square{
+    border: 2px solid red;
+    background-color: black;
+    position: relative;
+    right: 14%;
+    top:10px;
+}
+/* .container_lowerbanner img{
+    position: absolute;
+} */
+.lowerbanner{
+    /* background-image:url("./assests/Photos/Rectangle 6774.png"); */
+    background-image: url("./assests/Photos/Rectangle\ 6773.png");
+    background-color: black;
+    text-align: center;
+    
+}
+.lowerbanner img{
+    position: absolute;
+   
+}
+.lowerbanner h1{
+    color: white;
+    
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-items: center;
+    background-color: aqua;
+    /* width: 900px; */
+    
+    
+}
+.box{
+    border: 2px solid red;
+    width: 40%;
+    background-color: blue;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer li{
+    margin-left: 40px;
+}
