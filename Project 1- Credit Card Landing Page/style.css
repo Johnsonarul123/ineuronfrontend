@@ -183,15 +183,14 @@ border: 2px solid green;
 } */
 .lowerbanner{
     /* background-image:url("./assests/Photos/Rectangle 6774.png"); */
-    background-image: url("./assests/Photos/Rectangle\ 6773.png");
-    background-color: black;
+    /* background-image: url("./assests/Photos/Rectangle\ 6773.png"); */
+    /* background-color: black; */
     text-align: center;
     
 }
-.lowerbanner img{
-    position: absolute;
-   
-}
+
+
+
 .lowerbanner h1{
     color: white;
     

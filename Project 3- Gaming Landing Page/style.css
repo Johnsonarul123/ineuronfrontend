@@ -8,13 +8,26 @@ nav ul{
 }
 nav li{
     margin: 10px;
+    color: white;
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: black;
 }
-nav button{
-    width: 6%;
+.nav_button{
+    display: flex;
+    gap: 1rem;
+}
+.nav_button button{
+    height: 60%;
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    background-color: black;
+}
+#sign_up{
+    background-color: #FF6666;
 }
 
 .hosting1{
