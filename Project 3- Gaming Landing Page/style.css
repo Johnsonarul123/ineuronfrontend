@@ -2,6 +2,9 @@
     border:5px solid rgb(243, 8, 8);
    
 }
+.hero{
+    background-image: url(./assests/Assets/Photos/futuristic-bg.png);
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -32,11 +35,57 @@ nav{
 
 .hosting1{
     border:2px solid green;
+    
 
+}
+
+.hosting1 h1,p{
+    color: white;
 }
 .hosting2{
     border:2px solid green;
 
+}
+.hosting2_cards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.card-img img{
+    width: 200px;
+}
+.hosting2_cards section{
+    display: flex;
+}
+.image-bg-content{
+    border: 2px solid red;
+    display: flex;
+    gap: 7%;
+}
+.image-bg-content img{
+     width: 200px;
+}
+
+.game_grid_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-img-four{
+    width: 200px;
+}
+
+.game_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid rebeccapurple;
+}
+
+.game_grid >div{
+    border: 2px solid red;
+}
+.most-played-img{
+    width: 200px;
 }
 .hosting3{
     border:2px solid green;
@@ -44,7 +93,14 @@ nav{
 }
 .hosting4{
     border:2px solid green;
+    text-align: center;
 
+}
+.hosting4 p{
+    color: black;
+}
+.background-hosting4{
+    width: 200px;
 }
 .hosting5{
     border:2px solid green;
@@ -61,4 +117,25 @@ nav{
 .hosting8{
     border:2px solid green;
 
+}
+
+footer{
+    display: flex;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    gap: 2%;
+}
+footer p{
+    color: black;
+}
+.footer-links{
+    display: flex;
+    
+}
+.footer-links ul{
+    list-style: none;
 }
