@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    
 }
 
 /* *::after{
@@ -88,7 +89,7 @@ navbar button{
     
 }
 .hero h1{
-    margin-left: 15%;
+    margin-left: 13%;
     font-size: 4.3rem;
     margin-bottom: 30px;
     color: #fff;
@@ -126,10 +127,13 @@ navbar button{
     margin-left: 15%;
     margin-bottom: 70px;
 }
+.hero_button img{
+    margin-left: 0%;
+}
 .hero-first p{
-    margin-left: 15%;
+    margin-left: 13%;
     margin-bottom: 60px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .side-column{
     display: flex;
@@ -182,15 +186,30 @@ navbar button{
 }
 .interesting{
 border: 2px solid green;
+background-color: #e4e7eb;
 text-align: center;
 padding: 40px;
 }
-
+.interesting h1{
+    font-size: 3.4rem;
+    font-weight:normal;
+}
+.interesting h5{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.interesting h1> span{
+    color: #f637ec;
+    font-weight: bolder;
+}
+.interesting h5{
+    color:#4e4d4c;
+}
 .interesting img{
     width: 50vw;
     position: relative;
     text-align: center;
-    bottom: 10px;
+    bottom: 45px;
 
     
 }
@@ -203,9 +222,15 @@ padding: 40px;
     text-align: center;
     background-color: #000;
 }
-
+.customer-content h1 > span{
+    color: #f637ec;
+}
+.customer-content h1{
+    font-size: 3.4rem;
+}
 .customer-content h1,h5{
     color: #fff;
+    padding: 2%;
 }
 .lowerbanner{
 border: 2px solid green;
@@ -351,7 +376,9 @@ border: 2px solid green;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     gap: 10px;
+    row-gap: 20px;
     justify-items: center;
+    
     background-color: rgb(0, 0, 0);
     /* width: 900px; */
     
@@ -361,15 +388,47 @@ border: 2px solid green;
     color: #fff;
 }
 .box{
-    border: 2px solid red;
-    width: 530px;
-    height: 240px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 430px;
+    height: 200px;
+    padding: 2%;
     background-color: rgb(0, 0, 0);
     
 }
 .box1{
     background-color: #4e4d4c;
 }
+
+.next-btn {
+    background-color: #000;
+    color: white;
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    left: 45%;
+    top: 150px;
+}
+.long-btn {
+    background-color: #f637ec;
+    padding: 3px 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 25px 0 #f637ec;
+    cursor: pointer;
+ }
+ .small-btn {
+    background-color: rgb(85, 84, 84);
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+ }
+ .small-btn:hover {
+     background-color: #f637ec;
+     box-shadow: 0 0 25px 0 #f637ec;
+     cursor: pointer;
+ }
 footer{
     display: flex;
     justify-content: space-evenly;
