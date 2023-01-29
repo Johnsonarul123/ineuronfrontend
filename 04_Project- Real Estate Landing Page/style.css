@@ -68,20 +68,28 @@ nav li{
 }
 .hosting2{
     border:2px solid green;
-   
-    
-
+    background-color: aqua;
 }
 .estate_grid{
     border: 2px solid purple;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 290px 290px 290px ;
+    column-gap: 0px;
+    padding: 2%;
     align-items: center;
     justify-content: center;
+    
 }
 .estate_grid>div{
     border: 1px solid red;
+    background-color: antiquewhite;
+    width: 50%;
+    
 }
+.estate_grid>div>img{
+    width: 200px;
+}
+
 .hosting2 h1{
     border: 2px solid yellow;
     text-align: center;
