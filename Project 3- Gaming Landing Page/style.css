@@ -46,14 +46,76 @@ nav{
     border:2px solid green;
 
 }
-.hosting2_cards{
+.war-games {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5%;
+}
+.soldier {
+    background-image: url(./assests/Assets/Photos/image\ 2.png);
+    background-position: 80% 75%;
+}
+.warrior {
+    background-image: url(./assests/Assets/Photos/image\ 4.png);
+    background-position: center;
+}
+.pubjiken {
+    background-image: url(./assests/Assets/Photos/image\ 3.png);
+    background-position: center;
+}
+.garela {
+    background-image: url(./assests/Assets/Photos/Rectangle\ 56.png);
+    background-position: center;
+    object-fit: contain;
+}
+.blur-bg {
+    background: rgba(216, 211, 211, 0.201);
+    backdrop-filter: blur(1rem);
+    height: 115px;
+    position: relative;
+    top: 70%;
+}
+.about-game {
+    padding: 15px 20px;
+}
+.about-game p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 7px 0;
+}
+.about-game span {
+    color: rgb(160, 157, 157);
+    font-size: 15px;
+}
+.stars {
+    margin: 10px 0;
+}
+.stars img {
+    height: 15px;
+}
+.about-game .download {
+    position: absolute;
+    right: 7%;
+    bottom: 28%;
+    border: none;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.about-game .download:hover {
+    background-color:#fe5c04;
+    cursor: pointer;
+}
+
+/* .hosting2_cards{
     display: flex;
     justify-content: center;
     gap: 5%;
-}
-.card-img img{
+} */
+/* .card-img img{
     width: 200px;
-}
+} */
 .hosting2_cards section{
     display: flex;
 }

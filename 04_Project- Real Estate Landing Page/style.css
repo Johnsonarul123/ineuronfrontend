@@ -1,10 +1,17 @@
 .container{
     border:5px solid rgb(243, 8, 8);
 }
-
+.main{
+    background-image: url(./assests/Photos/mainBackground.png);
+    background-size: auto;
+    width:100%;
+    margin-bottom: 2%;
+    padding-bottom: 20%;
+   
+}
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 nav ul{
     list-style: none;
@@ -13,8 +20,40 @@ nav ul{
 nav li{
     margin:10px;
 }
+.hero{
+    border: 2px solid blue;
+}
+
+.hero h1{
+    border: 2px solid brown;
+    
+    padding-left: 18%;
+    font-size: 3.8rem;
+}
+.hero p{
+    border: 2px solid blue;
+    padding-left: 18%;
+    font-size: medium;
+
+}
+
+.hero button{
+    position: relative;
+    left: 18%;
+    padding: 1%;
+    border-radius: 50px;
+    width: 130px;
+    
+}
 .hosting1{
-    border:2px solid green;
+    border:4px solid green;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    background-color: aliceblue;
+    
+    border-radius: 20px;
 
 
 }
@@ -29,17 +68,47 @@ nav li{
 }
 .hosting2{
     border:2px solid green;
+   
+    
 
+}
+.estate_grid{
+    border: 2px solid purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+}
+.estate_grid>div{
+    border: 1px solid red;
+}
+.hosting2 h1{
+    border: 2px solid yellow;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2.4rem;
 }
 .hosting3{
     border:2px solid green;
 
 }
 .modern_trend{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.modern_trend img{
+    width: 160px;
 }
 .hosting4{
     border:2px solid green;
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15%;
+    text-align: center;
 
 }
 .hosting5{
@@ -61,7 +130,7 @@ nav li{
 
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .footer_logo ul{
    display: flex;
