@@ -1,5 +1,10 @@
+*{
+   margin: 0;
+}
+
 .container{
-    border:5px solid rgb(255, 0, 0);
+   margin: 0;
+   background-color: black;
     
     
 }
@@ -67,7 +72,7 @@ nav{
 
 /* -------section-1------- */
 .section1{
-    border:2px solid green;
+    
     display: flex;
     gap: 20px;
     color: white;
@@ -86,15 +91,17 @@ nav{
 
 #onear{
     margin-left: 60%;
+    margin-top: 20px;
 }
 .section1 section{
     margin-left:55%;
-    border: 2px solid white;
+    
     width: 100%;
 }
 
 .section1 section h1{
     font-size: 50px;
+    margin: 0;
 }
 .section1 section  p{
     line-height: 30px;
@@ -117,7 +124,7 @@ nav{
 /* ------------section-2----------- */
 
 .section2{
-    border:2px solid green;
+    
     display: flex;
     background-color: black;
 }
@@ -129,12 +136,13 @@ nav{
 }
 
 .section3{
-    border:2px solid green;
+    
     color: white;
     background-color: black;
-    margin-bottom: 50px;
+    
 }
 .section-specs{
+    margin-top: 50px;
     padding-left: 41%;
 }
 .specs-bg-img img:hover{
@@ -159,7 +167,7 @@ nav{
 
 /* --------section-4--------- */
 .section4{
-    border:2px solid green;
+    
     margin-bottom: 50px;
 }
 
@@ -169,6 +177,7 @@ nav{
 }
 .cases{
     margin-bottom: 70px;
+    margin-top: 50px;
 }
 .plug-img img:hover{
     transition: 0.3s ease-in-out;
@@ -201,11 +210,11 @@ nav{
 
 
 .section5{
-    border:2px solid rgb(128, 0, 100);
+   
     margin-bottom: 50px;
 }
 .section5>section{
-    border:2px solid rgb(128, 128, 0);
+   
     display: flex;
     justify-content: center;
     width: 60%;
@@ -229,14 +238,16 @@ nav{
     margin-bottom: 10px;
 }
 .section6{
-    border:2px solid green;
+    
     margin: 5% 0;
+    
 
 }
 
 .chooselogo{
     padding-left: 40%;
     margin-bottom: 100px;
+    
 }
 
 .headphone-img{
@@ -282,7 +293,7 @@ nav{
 footer{
     display: flex;
     justify-content: space-evenly;
-    border:2px solid green;
+   
     color: white;
     background-color: black;
     padding: 2%;
@@ -307,7 +318,9 @@ footer>div>ul{
 .email_box{
     display: inline;
 }
-.socials{
+.socials {
     display: flex;
+    gap: 20px;
+   
 }
 
