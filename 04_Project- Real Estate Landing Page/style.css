@@ -103,9 +103,12 @@ nav li{
 .modern_trend{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    gap: 20px;
 }
 .modern_trend img{
-    width: 160px;
+    width: 190px;
+    border-radius: 20px;
 }
 .hosting4{
     border:2px solid green;
@@ -117,6 +120,7 @@ nav li{
     position: relative;
     left: 15%;
     text-align: center;
+    
 
 }
 .hosting5{
@@ -139,10 +143,19 @@ nav li{
 footer{
     display: flex;
     justify-content: space-evenly;
+    padding: 5%;
+}
+.footer_logo>img{
+    width: 130px;
 }
 .footer_logo ul{
    display: flex;
    list-style: none;
+}
+.footer_logo>ul>li>img{
+    width: 40px;
+    position: relative;
+    left: -40px;
 }
 .footer_list{
     display:flex ;

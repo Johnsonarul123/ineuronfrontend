@@ -2,40 +2,127 @@
     border:5px solid rgb(243, 8, 8);
     
 }
-
+/* --------navbar-------------- */
 nav{
     display: flex;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 200px; */
+    
 }
 
-nav ul{
+.logo img{
+    margin-right: 5rem;
+    height: 50px;
+}
+.navbar ul{
     list-style: none;
     display:flex ;
+    gap: 70px;
+    margin-top: 30px;
+    color: white;
 }
 
-.hosting1{
+.navbar ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: #a9a8a8;
+}
+.navbar ul li a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    margin: auto;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+    background-color: #fff;
+}
+.shop{
+    background-color: #222121;
+    padding: 15px 50px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.shop:hover{
+    box-shadow: 2px 2px 15px #fff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.section1{
+    border:2px solid green;
+    display: flex;
+    gap: 20px;
+    color: white;
+    background-color:black ;
+
+}
+.main-img{
+    padding-left: 100px;
+    position: relative;
+    bottom: 100px;
+    object-fit: cover;
+    object-position: bottom;
+    width: 280px;
+    height: 570px;
+}
+.section2{
+    border:2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.section3{
+    border:2px solid green;
+    color: white;
+    background-color: black;
+}
+.specs{
+    display: flex;
+    padding-left: 40%;
+}
+.section3>div{
+    display: flex;
+    justify-content: center;
+}
+.section4{
     border:2px solid green;
 
 }
-.hosting2{
+
+.plug_box{
+    display: flex;
+    justify-content: center;
+}
+.section5>section{
+    border:2px solid green;
+    display: flex;
+    justify-content: center;
+
+}
+.section6{
     border:2px solid green;
 
 }
-.hosting3{
-    border:2px solid green;
-
+.headset_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
-.hosting4{
-    border:2px solid green;
 
-}
-.hosting5{
-    border:2px solid green;
-
-}
-.hosting6{
-    border:2px solid green;
-
-}
 .hosting7{
     border:2px solid green;
 
@@ -44,3 +131,34 @@ nav ul{
     border:2px solid green;
 
 }
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    padding: 2%;
+}
+
+footer>div{
+    display: flex;
+     
+}
+.logo-footer{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: top;
+}
+
+footer>div>ul{
+    list-style: none;
+    
+}
+.email_box{
+    display: inline;
+}
+.socials{
+    display: flex;
+}
+
