@@ -4,20 +4,49 @@
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav ul{
     list-style: none;
     display: flex;
+    gap: 60px;
     
 }
-
-.hosting1{
+.logo{
+    height: 50%;
+    margin-top: 10px;
+}
+.start-trials{
+    border-radius: 50px ;
+     border: 1px solid rgb(127, 44, 204);
+     color: rgb(127, 44, 204);
+     padding: 2%;
+     width: 150px;
+     background-color: #fff;
+    
+}
+.section1{
     border:2px solid green;
     display: flex;
+    justify-content: center;
+    gap: 10px;
 
 }
-.hosting2{
+.left-content{
+    margin-top: 7%;
+}
+.left-btn{
+    border-radius: 50px;
+    border: 1px solid rgb(127, 44, 204) ;
+    color: rgb(127, 44, 204);
+    padding: 2%;
+}
+.left-btn-btn{
+    background-color:rgb(127, 44, 204) ;
+    color: white;
+    margin-right: 10px;
+}
+.section2{
     border:2px solid green;
     text-align: center;
 
@@ -26,41 +55,146 @@ nav ul{
 .insight_three_column{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
-.hosting3{
+.section3{
     border:2px solid green;
     display: flex;
+    justify-content: center;
+    gap: 30px;
 
 }
-.hosting4{
+.right-section3{
+    position: relative;
+    margin-top: 7%;
+    
+}
+.section4{
     border:2px solid green;
     display: flex;
+    justify-content: center;
 
 }
-.hosting5{
+.left-section4{
+    position: relative;
+    margin-top: 7%;
+}
+.section5{
     border:2px solid green;
     text-align: center;
 
 }
-.hosting6{
+.section6{
     border:2px solid green;
     
 
 }
-.hosting6 ul{
+.section6 ul{
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
-.hosting7{
+.section7{
     border:2px solid green;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin:50px 0px;
 
 }
-.hosting8{
+.trust-lines{
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 18px;
+}
+.trust-lines p{
+    color: #838383;
+    margin: 0px 20px ;
+}
+.first-hr, .second-hr{
+    border-bottom: 2px solid #a4a3a3;
+    width: 30%;
+}
+.start-trial{
+    width: 300px;
+    height: 40px;
+    border-radius: 0%;
+    margin: 15px 0;
+    background-color: #4285f4;
+    color: #fff;
+    transition: 0.3s;
+}
+.left-section7{
+    border:2px solid rgb(128, 38, 0);
+}
+.left-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 60px;
+    column-gap: 40px;
+}
+.form-section7{
     border:2px solid green;
-
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+    height: 450px;
 }
+.user-input{
+    display: flex;
+    flex-direction: column;
+}
+.user-input input{
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+.google-sign{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+.sign-in{
+    width: 200px;
+    
+    border-radius: 2px;
+    background-color: #4285f4;
+    color: #fff;
+    height: 49px;
+    transition: 0.3s;
+    /* padding: 10px 12px; */
+}
+.gmail-icon{
+    border: 2px solid #4285f4;
+    border-radius: 2px;
+    height: 45px;
+    padding: 0 12px;
+    position: relative;
+    left: 4px;
+}
+.gmail-icon img{
+    position: relative;
+    top: 6px;
+    height: 30px;
+}
+.horizontal-line{
+    border-bottom: 2px solid #cccaca;
+    width: 100%;
+}
+.login{
+   margin: 0px 10px;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+}
+
 footer{
     display: flex;
 }
