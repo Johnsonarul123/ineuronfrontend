@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------navbar------------- */
+
 .navbar{
     display: flex  ;
     padding: 10px;
@@ -6,11 +13,12 @@
 }
 .navbar button{
    position: relative;
-   top: 30px;
+   
 }
 .navbar img{
     position: relative;
-    top: 20px;
+    top: 10px;
+    width: 80px;
     
 }
 
@@ -19,8 +27,8 @@
 .line{
     display: flex;
     position: relative;
-    left: -60px;
-    top: 30px;
+     left: -80px;
+    top: 10px;
     width: 3px;
     height: 30px;
     background-color: rgb(255, 255, 255);
@@ -35,21 +43,33 @@
     list-style: none;
     position: relative;
     left: -180px;
-    
+
+    gap: 20px;
     
 }
 
 .list-item{
-    padding: 20px ;
+    padding: 10px ;
     color: white;
+}
+.list-item:hover{
+    color: beige;
+    cursor: pointer;
+    
 }
 
 .button-small{
-    background-color: #8D3DAF;
+    background-color: #ce20b4;
     color: aliceblue;
     padding: 10px;
     border-radius: 5px;;
 
+}
+
+.button-small:hover{
+    background-color: rgb(163, 101, 161);
+    cursor: pointer;
+    
 }
 
 
@@ -59,32 +79,42 @@
     text-align: center;
     padding: 150px;
     color: aliceblue;
+
 }
 
 .hero h1{
     position: relative;
-    top: -160px;
-    font-size: 100px;
+    top:-80px;
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 70px;
+    
 }
 
 .hero p{
     position: relative;
-    top: -220px;
-    font-size: 20px;
+    top: -60px;
+    font-size:20px;
     font-weight: 700;
 }
 .hero button{
     position: relative;
-    top: -200px;
+    top: -50px;
+    margin-top: 20px;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    background-color: #8D3DAF;
+    background-color: #ce20b4;
     color: aliceblue;
 }
-
-.container{
-    background-image: url(./assets/bg.png);
-    background-size: 100% 100% ;
+.hero button:hover{
+    background-color: rgb(163, 101, 161);
+    cursor: pointer;
     
+}
+
+.bg-img{
+  position: absolute;
+  height: 90vh;
+  width: 100vw;
 }
