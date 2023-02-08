@@ -53,7 +53,7 @@
 }
 
 .profile-img img{
-    border: 2px solid rgb(27, 0, 233);
+   
     position: relative;
     width: 25vw;
     /* top: 90px;
@@ -80,7 +80,10 @@
 .hero-description{
     border: 2px solid rgb(18, 182, 211);
     position: relative;
-    font-size: 20px;
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
    
 .grp-button{
@@ -102,14 +105,25 @@
     display: flex;
     justify-content: center;
 }
-/* .square{
-   position: relative;
-   top: 420px;
-   left: -120px;
+.square{
+   position: absolute;
+   top: 270px;
+   left: 140px;
    z-index: -1;
 }
 
 .star{
+    position: relative;
+   left: 150px;
+   top: 340px;
+   
+   
+}
+.star img{
+    width: 40px;
+}
+
+/* .star{
    position: relative;
    display: flex;
    top: 70px;

@@ -35,12 +35,16 @@ nav{
 
 .hosting1{
     border:2px solid green;
-    
+    height: 100vh;
+    /* padding: 5%; */
 
 }
-
+.hosting1 h1{
+    font-size: 3rem;
+}
 .hosting1 h1,p{
     color: white;
+    
 }
 .hosting2{
     border:2px solid green;
