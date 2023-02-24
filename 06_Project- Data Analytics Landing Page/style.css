@@ -46,7 +46,10 @@ nav ul{
 .section1::before{
     content: '';
     position: absolute;
-    background: linear-gradient(to bottom, #fff #e4f2ff);
+    background:-webkit-linear-gradient(to bottom,#fff #e4f2ff);
+    
+
+
     clip-path: polygon(0% 0%,100% 80%, 0% 97%);
     height: 95%;
     width: 100%;
@@ -312,11 +315,14 @@ nav ul{
 }
 .sign-in{
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     border-radius: 2px;
     background-color: #4285f4;
     color: #fff;
-    height: 49px;
+    height: 45px;
     transition: 0.3s;
     /* padding: 10px 12px; */
 }
@@ -327,6 +333,7 @@ nav ul{
     padding: 0 12px;
     position: relative;
     left: 4px;
+    border: 2px solid #4285f4;;
 }
 .gmail-icon img{
     position: relative;

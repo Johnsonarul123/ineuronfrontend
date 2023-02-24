@@ -39,22 +39,124 @@ nav{
     /* padding: 5%; */
 
 }
-.hosting1 h1{
+/* .hosting1 h1{
     font-size: 3rem;
 }
 .hosting1 h1,p{
     color: white;
     
+} */
+.hosting1 .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
 }
+.hosting1 .left-side h1 {
+    color: #fff;
+    font-size: 60px;
+    width: 60%;
+    line-height: 80px;
+}
+.hosting1 .left-side p {
+    color: rgb(165, 164, 164);
+    width: 45%;
+    line-height: 30px;
+}
+
+.main-btn {
+    margin-left: -10px;
+}
+.start-btn {
+    padding: 15px 35px;
+}
+.learn-btn {
+    border: 2px solid #fff;
+    padding: 15px 35px;
+    color: #fff;
+    margin-left: 18px;
+    background-color: transparent;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+.start-btn:hover {
+    background-color: #fff;
+    color: #f4694c;
+    cursor: pointer;
+}
+.learn-btn:hover {
+    color: #fff;
+    background-color: #f4694c;
+    padding-right: 4%;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.right-side {
+    margin-top: 20%;
+    margin-right: 8%;
+}
+.playbutton {
+    position: relative;
+    bottom: 100%;
+    left: 20%;
+}
+.playbutton img {
+    height: 70px;
+}
+.playbutton img:hover {
+    cursor: pointer;
+    background-color:#f4694c;
+    border-radius: 50%;
+}
+
+.right-text p {
+    color: #fff;
+    font-size: 25px;
+    width: 110%;
+}
+#dash-img {
+    position: absolute;
+    right: 28%;
+    bottom: 14%
+}
+#right-arrow {
+    position: absolute;
+    right: 5%;
+    bottom: 3%
+}
+
+
 .hosting2{
     border:2px solid green;
 
 }
+
+
+
+.section-two {
+    padding: 10% 5%;
+}
+.section-two #heading-two {
+    font-size: 45px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 60px;
+}
+
+/* -------------war games--------- */
 .war-games {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 5%;
+}
+
+.card {
+    height: 380px;
+    width: 300px;
+    background-size: cover;
 }
 .soldier {
     background-image: url(./assests/Assets/Photos/image\ 2.png);
@@ -126,18 +228,98 @@ nav{
 .image-bg-content{
     border: 2px solid red;
     display: flex;
-    gap: 7%;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 15%;
 }
 .image-bg-content img{
-     width: 200px;
+    width: 750px;
+    height: 400px;
 }
 
-.game_grid_header{
+.image-bg-content .right-content-war{
+    margin-top: 25px;
+
+}
+.image-bg-content h1{
+    width: 90%;
+    text-align: start;
+    margin-left: -2px;
+    font-size: 42px;
+    line-height: 60px;
+}
+.image-bg-content p{
+    color: rgb(140, 138, 138);
+    margin: 8% 0;
+    line-height: 30px;
+}
+.explore-new {
+    border: none;
+    padding: 16px 28px;
+}
+.explore-new:hover {
+    background-color: #fe4f04;
+    cursor: pointer;
+    box-shadow: 0 10px 40px #000;
+}
+.war-learn {
+    border: 2px solid #f4694c;
+    color: #f4694c;
+
+    
+}
+
+.game_grid_header {
     display: flex;
     justify-content: space-between;
+    gap: 100px;
+    margin-top: 10%;
+}
+.game_grid_header h1 {
+    font-size: 42px;
+    width: 40%;
+    line-height: 60px;
+}
+.arrows {
+    margin-right: 7%;
+    margin-top: 2%;
+    
+}
+#left-a {
+    background-color: #faa6958d;
+    padding: 15px;
+    position: relative;
+    right: 10px;
 }
 
-.grid-img-four{
+#right-a {
+    background-color:#f4694c;
+    padding: 15px;
+    position: relative;
+    left: 60px;
+    bottom: 48px
+}
+#left-a:hover {
+    background-color: #f77c47c8;
+    color: #fff;
+    cursor: pointer;
+}
+
+#right-a:hover {
+    background-color: #fe4f04;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* .game_grid_header{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 10%;
+} */
+
+/* .grid-img-four{
     width: 200px;
 }
 
@@ -152,19 +334,138 @@ nav{
 }
 .most-played-img{
     width: 200px;
+} */
+.game_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin-top: 5%;
+    
 }
-.hosting3{
-    border:2px solid green;
+.games {
+    height: 330px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    transition: 0.4s;
+}
+.games:hover {
+    transform: scale(1.2);
+}
+.games img {
+    width: 260px;
+    height: 310px;
+}
+.about-types {
+    position:relative;
+    top: 12px;
+    right: 10px;
+}
+.about-types h1 {
+    margin: 15px 0;
+    line-height: 30px;
+    font-size:large;
+} 
+.about-types span {
+    color: #f4694c;
+}
+.about-types p {
+    color: rgb(167, 165, 165);
+    font-size: 15px;
+    margin: 25px 0;
+    line-height: 25px;
+}
+.about-types button {
+    border: none;
+    position: relative;
+    right: 2px;
+    margin: 10px 0;
+}
+.about-types button:hover {
+    background-color: #fe4f04;
+    cursor: pointer;
+}
 
+/* ========= Section-Three ========= */
+.section-three {
+    background-color: #000;
+    height: 1000px;
+    padding: 5% 0;
 }
+.heading-three {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    width: 40%;
+    line-height: 60px;
+    margin-left: 35%;
+}
+.section-three-right p {
+    color: rgb(181, 180, 180);
+    font-size: 18px;
+    width: 75%;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.section-three-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3%;
+    margin-left: 15%;
+    background-image: url(./assests/Assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-size: 50%;
+}
+.card-one img {
+    height: 400px;
+    width: 350px;
+}
+.card-two img {
+    height: 280px;
+    width: 200px;
+    position: relative;
+    top: 10rem;
+}
+.card-three img {
+    height: 100px;
+    width: 150px;
+    position: relative;
+    top: 20rem;
+}
+.section-three-img {
+    display: flex;
+    gap: 50px;
+}
+
+
+/* ----------hosting 4------- */
 .hosting4{
     border:2px solid green;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60),
+    rgba(0, 0, 0, 0.60)), url(./assests/Assets/Photos/Rectangle\ 606.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size:contain;
     text-align: center;
+    padding: 8% 0;
+    height: 400px;
 
 }
-.hosting4 p{
-    color: black;
+.hosting4 h1{
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
 }
+.hosting4 p{
+    color: rgb(223, 222, 222);
+    font-size: 15px;
+    line-height: 25px;
+    margin: 25px 0;
+}
+
 .background-hosting4{
     width: 200px;
 }
@@ -186,11 +487,26 @@ nav{
 }
 
 footer{
+    background-color: #000;
+    height: 460px;
+    padding: 4% 0;
     display: flex;
-    padding: 2%;
-    justify-content: space-evenly;
+    gap: 30px;
+    position: relative;
 }
-.footer ul{
+.logo-icons {
+    margin-left: 8%;
+}
+.logo-icons p {
+    color: rgb(156, 155, 155);
+    margin: 22px 0;
+    width: 60%;
+    line-height: 25px;
+}
+.icons img {
+    margin-right: 10px;
+}
+/* .footer ul{
     display: flex;
     list-style: none;
     gap: 2%;
@@ -204,4 +520,39 @@ footer p{
 }
 .footer-links ul{
     list-style: none;
+} */
+
+.footer-list {
+    display: flex;
+    gap: 100px;
+    margin-top: -8px;
 }
+.footer-list ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer-list ul li {
+    color: #fff;
+    list-style: none;
+    margin-top: 30px;
+    color: rgb(156, 155, 155);
+}
+.footer-list ul li:hover {
+    color: #f4694c;
+    cursor: pointer;
+}
+#first-item {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.end-line{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background: #202d39;
+    margin: auto;
+    position: absolute;
+    top: 85%;
+}
+
