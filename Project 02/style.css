@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 /* ----------navbar------------- */
@@ -27,7 +28,7 @@
 .line{
     display: flex;
     position: relative;
-     left: -80px;
+     /* left: -80px; */
     top: 10px;
     width: 3px;
     height: 30px;
@@ -42,7 +43,7 @@
     display: flex;
     list-style: none;
     position: relative;
-    left: -180px;
+    /* left: -180px; */
 
     gap: 20px;
     
@@ -123,6 +124,12 @@
 /* ---------media query ------------ */
 @media only screen and (max-width: 600px) {
 
+    
+    *{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        
+    }
     .grow-list ,.line{
         display: none;
     }
@@ -138,11 +145,17 @@
         top: 0px;
         width: 70px;
     }
+    .bg-img{
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+    }
     .hero{
         text-align: center;
-        padding: 150px;
+        padding: 100px;
         color: aliceblue;
-    
+        
+        width: 50%;
     }
     
     .hero h1{
@@ -153,7 +166,7 @@
         line-height: 50px;
         flex-wrap: wrap;
         display: flex;
-        left: -70%;
+        /* left: -70%; */
         
     }
     
