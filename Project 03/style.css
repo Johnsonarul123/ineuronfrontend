@@ -19,6 +19,7 @@
 .navbar-container .list{
     display: flex;
     gap: 40px;
+    margin-top: 3%;
 }
 
 .button-group{
@@ -77,11 +78,21 @@
 .hero-container-right h1{
     text-align: center;
 }
+
+.hero-heading{
+
+    position: relative;
+    left: 10px;
+    font-size:  70px;
+    white-space: nowrap;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 .hero-description{
     border: 2px solid rgb(18, 182, 211);
     position: relative;
     font-size: 15px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -92,6 +103,9 @@
     gap: 20px;
     position: relative;
     justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
 
     
 }
@@ -99,11 +113,18 @@
 .contact-us h4{
     border: 2px solid rgb(18, 182, 211);
     text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .icons{
     border: 2px solid rgb(2, 61, 71);
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+ 
+.icons img{
+    width: 30px;
 }
 .square{
    position: absolute;
@@ -122,7 +143,50 @@
 .star img{
     width: 40px;
 }
+.star1{
+    position: relative;
+    left: 90%;
+    top: 20px;
+}
+.star1 img{
+    width: 40px;
+}
 
+.globe{
+    position: relative;
+    left: 25%;
+    top: -20px;
+}
+
+.globe img{
+    width: 40px;
+}
+
+.hero-container-right{
+    position: relative;
+   height: 90%;
+   
+ }
+
+
+ .button-email{
+    position: relative;
+    padding:0% 3%;
+    background-color: white;
+    border-radius: 5px;
+   
+}
+
+.button-join{
+    position: relative;
+    background-color: black;
+    
+    
+    color: white;
+    padding:0% 1%;
+    border-radius: 5px;
+    
+} 
 /* .star{
    position: relative;
    display: flex;
