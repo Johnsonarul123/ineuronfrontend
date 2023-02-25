@@ -123,9 +123,20 @@
 /* ---------media query ------------ */
 @media only screen and (max-width: 600px) {
 
-    .navbar{
-        display: none  ;
-       
+    .grow-list ,.line{
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .button-small{
+        padding: 5px;
+    }
+    .navbar img{
+        position: relative;
+        top: 0px;
+        width: 70px;
     }
     .hero{
         text-align: center;
