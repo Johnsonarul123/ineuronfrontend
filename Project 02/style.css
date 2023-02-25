@@ -118,3 +118,42 @@
   height: 90vh;
   width: 100vw;
 }
+
+
+/* ---------media query ------------ */
+@media only screen and (max-width: 600px) {
+
+    .navbar{
+        display: none  ;
+       
+    }
+    .hero{
+        text-align: center;
+        padding: 150px;
+        color: aliceblue;
+    
+    }
+    
+    .hero h1{
+        position: relative;
+        top:-80px;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 50px;
+        flex-wrap: wrap;
+        display: flex;
+        left: -70%;
+        
+    }
+    
+    .hero p{
+        position: relative;
+        top: -60px;
+        font-size:5px;
+        font-weight: 700;
+    }
+    .button-large{
+        font-size: 5px;
+        padding: 5px !important;
+    }
+  }

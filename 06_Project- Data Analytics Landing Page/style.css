@@ -19,9 +19,12 @@ nav ul{
     gap: 60px;
     
 }
+nav li{
+    margin-top: 2%;
+}
 .logo{
     height: 50%;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .start-trials{
     border-radius: 50px ;
