@@ -1,26 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
+   
+}
+nav img{
+    width: 15%;
+    height: 55px;
+    padding-left: 20px;
+    padding-top: 10px;
+
 }
 nav ul{
     display: flex;
+    padding-top: 20px;
     
     
 }
 
 nav li{
    list-style: none;
-   margin-left: 80px;
+   margin-left: 25px;
    margin-right: 90px;
    font-size: medium;
    font-weight: 700;
    
 }
+.home{
+    color: rgb(2, 188, 86);
+}
 
 .main{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
+    padding-right: 2%;
+    padding-left: 3%;
 }
 
 .content {
@@ -38,13 +59,27 @@ nav li{
     font-size: x-small;
 }
 
+.content h2{
+    font-size: small;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    color: grey;
+}
+.right-side{
+    position: relative;
+    float: right;
+}
 .content button{
     width: 50%;
-    height: 5%;
+    height: 10%;
     border-radius: 50px;
     border: none;
     color: aliceblue;
-    background-color: rgb(25, 237, 121);
+    background-color: rgb(2, 188, 86);
+    margin-left: 2%;
+    color: white;
+    font-weight: 800;
 }
 
 .photos{
@@ -53,14 +88,16 @@ nav li{
 }
 #first{
     position: absolute;
-    right: 5%;
-    bottom: 4%;
+    right: 1%;
+    bottom: 8%;
+    width: 32%;
 }
 
 #second{
     position: absolute;
-    right: -1.5%;
+    right: -0.2%;
     bottom: 5%;
+    width: 30%;
     
     
     
@@ -68,5 +105,7 @@ nav li{
 
 #third{
     position: relative;
+    width: 60%;
+    float: right;
     
 }
