@@ -2,6 +2,7 @@
     /* overflow: hidden; */
     padding: 0%;
     margin: 0%;
+   
 }
 .navbar-container{
      display: flex;
@@ -21,6 +22,11 @@
     gap: 40px;
     margin-top: 3%;
 }
+.logo img{
+    width: 90px;
+    position: relative;
+    top: 10px;
+}
 
 .button-group{
     display: flex;
@@ -29,15 +35,15 @@
 
 .search-icon{
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 
 .nav-button{
     position: relative;
     background-color: rgb(249, 249, 249);
-    top: 20px;
+    top: 10px;
     padding: 10px;
-    border: 3px solid black;
+    
     border-radius: 10px;
     width: 140px;
 }
@@ -45,9 +51,10 @@
 /* navbar ends */
 
 .hero-container{
-    border: 2px solid red;
+   
     display: flex;
     padding: 6%;
+    padding-top: 3%;
     /* width: 100%; */
 
     
@@ -62,12 +69,12 @@
 }
 
 .content-right{
-    border: 2px solid rgb(18, 211, 89);
+   
 }
 
 
 .hero-container-right{
-    border: 2px solid rgb(211, 18, 163);
+    
     position: relative;
     /* top: 100px; */
     
@@ -89,7 +96,6 @@
     padding-bottom: 3%;
 }
 .hero-description{
-    border: 2px solid rgb(18, 182, 211);
     position: relative;
     font-size: 15px;
     width: 70%;
@@ -98,7 +104,6 @@
 }
    
 .grp-button{
-    border: 2px solid rgb(102, 211, 18);
     display: flex;
     gap: 20px;
     position: relative;
@@ -111,13 +116,11 @@
 }
 
 .contact-us h4{
-    border: 2px solid rgb(18, 182, 211);
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 .icons{
-    border: 2px solid rgb(2, 61, 71);
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -128,7 +131,7 @@
 }
 .square{
    position: absolute;
-   top: 270px;
+   top: 210px;
    left: 140px;
    z-index: -1;
 }
