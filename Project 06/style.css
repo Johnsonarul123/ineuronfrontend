@@ -9,11 +9,12 @@ nav{
     justify-content: space-evenly;
     padding-left: 60px  ;
     margin: 20px;
+    margin-top: 10px;
   
 }
 nav img{
     width: 80px;
-    height: 40px;
+    height: 30px;
     margin-top: 10px;
 }
 nav ul{
