@@ -6,12 +6,12 @@
 }
 
 .container{
-    border:5px solid rgb(243, 8, 8);
 }
 
 nav{
     display: flex;
     justify-content: space-around;
+    padding: 20px 0px 10px 0px;
 }
 nav ul{
     list-style: none;
@@ -26,17 +26,35 @@ nav li{
     height: 50%;
     margin-top: 5px;
 }
+
 .start-trials{
-    border-radius: 50px ;
-     border: 1px solid rgb(127, 44, 204);
-     color: rgb(127, 44, 204);
-     padding: 2%;
-     width: 150px;
-     background-color: #fff;
+    padding: 2%;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid rgb(127, 44, 204) ;
+    background-color: white;
+    color: rgb(127, 44, 204) ;
+    font-size: medium;
     
 }
+.start-trial{
+    border-radius: 50px ;
+     /* border: 1px solid rgb(127, 44, 204); */
+     background-color: rgb(127, 44, 204);
+     padding: 2%;
+     /* width: 150px; */
+     /* background-color: #fff; */
+     border: none; 
+     width: 300px;
+     height: 40px;
+     border-radius: 0%;
+     margin: 15px 0;
+     /* background-color: #4285f4; */
+     color: #fff;
+     transition: 0.3s;   
+     border-radius: 5px;
+}
 .section1{
-    border:2px solid green;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -49,11 +67,11 @@ nav li{
 .section1::before{
     content: '';
     position: absolute;
-    background:-webkit-linear-gradient(to bottom,#fff #e4f2ff);
+    background:linear-gradient(to bottom,#fff, #e4f2ff);
     
 
 
-    clip-path: polygon(0% 0%,100% 80%, 0% 97%);
+    clip-path: polygon(110% -1190%,100% 80%, -10% 97%);
     height: 95%;
     width: 100%;
     z-index: -1;
@@ -73,12 +91,21 @@ nav li{
     margin: 20px 0;
     color: #828181;
 }
+
+.released{
+    background-color: #f7f1ff;
+    width: 250px;
+    padding: 3%;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
 .released span{
     color: #69318e;
     font-weight: 500;
     position: relative;
     top: -3px;
     left: 8px;
+   
 }
 .released a{
     margin-left:5px ;
@@ -95,6 +122,8 @@ nav li{
     border: 1px solid rgb(127, 44, 204) ;
     color: rgb(127, 44, 204);
     padding: 15px 30px;
+    text-decoration: solid;
+    background-color: white;
 }
 .left-btn-btn{
     background-color:rgb(127, 44, 204) ;
@@ -104,11 +133,12 @@ nav li{
 .learn-btn:hover{
    border: 2px solid #b381d3;
    transform: translate(0,3px);
+   
+   
 }
 
 /* ----------------section-2------------------- */
 .section2{
-    border:2px solid green;
     text-align: center;
     padding: 10% 0;
     display: flex;
@@ -155,7 +185,6 @@ nav li{
 
 /* ---------------section3----------------- */
 .section3{
-    border:2px solid green;
     display: flex;
     justify-content: center;
     gap: 120px;
@@ -197,7 +226,6 @@ nav li{
 
 /* ----------------------section-4----------------------- */
 .section4{
-    border:2px solid green;
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -221,7 +249,6 @@ nav li{
 
 /* ---------------------section-5--------------------------- */
 .section5{
-    border:2px solid green;
     text-align: center;
     padding: 5% 0;;
 
@@ -229,18 +256,29 @@ nav li{
 .hr-line{
     border-bottom: 3px solid #cfc6e7;
     width: 70%;
-    margin-top: 12%;
+    margin-top: 3%;
     margin-left: 15%;
+    
 }
 
 .profile{
     clip-path: polygon(0% 18%, 100% 0%, 100% 82%, 0% 100%);
-    background: linear-gradient(to top, #6694e3 #b179d4);
+    background: linear-gradient(to top, #e5ebf5, #f4ecf9);
     height: 600px;
+    
+}
+.profile p{
+    color: black;
+    position: relative;
+    top: 140px;
+    font-size: x-large;
+}
+.profile-name{
+    position: relative;
+    top: 180px;
 }
 /* ---------------------section-6--------------------------- */
 .section6{
-    border:2px solid green;
     margin-top: 30px;
     
 
@@ -251,11 +289,11 @@ nav li{
     justify-content: space-around;
 }
 .section7{
-    border:2px solid green;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     margin:50px 0px;
+    padding: 3%;
 
 }
 .trust-lines{
@@ -274,7 +312,7 @@ nav li{
     border-bottom: 2px solid #a4a3a3;
     width: 30%;
 }
-.start-trial{
+/* .start-trial{
     width: 300px;
     height: 40px;
     border-radius: 0%;
@@ -282,9 +320,13 @@ nav li{
     background-color: #4285f4;
     color: #fff;
     transition: 0.3s;
-}
+} */
 .left-section7{
-    border:2px solid rgb(128, 38, 0);
+    padding: 10px 30px 10px 30px;
+}
+
+.left-section7 h1{
+    font-size: xx-large;
 }
 .left-grid{
     display: grid;
@@ -292,12 +334,23 @@ nav li{
     row-gap: 60px;
     column-gap: 40px;
 }
+.right-side-form-back{
+    background-color: #f7eefd;
+    height: 450px;
+    padding: 0px 30px;
+    
+    
+}
 .form-section7{
-    border:2px solid green;
     text-align: center;
-    padding: 20px 30px;
+    padding: 20px 30px 30px 30px;
     border-radius: 5px;
     height: 450px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 0 0 5px #d3d1d1;
+    
 }
 .user-input{
     display: flex;
@@ -348,7 +401,7 @@ nav li{
     width: 100%;
 }
 .login{
-   margin: 0px 10px;
+   margin-top: 15px;
    font-size: 15px;
    display: flex;
    justify-content: center;
