@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    
 }
 
 .container{
@@ -469,10 +470,17 @@ footer ul li{
 }
 
 @media only screen and (max-width: 600px) {
+    *{
+        width: fit-content;
+    }
+    nav{
+        width: auto;
+    }
     nav ul{
         list-style: none;
         display: flex;
         gap: 10px;
+        width: auto;
         
     }
     .section1{
@@ -481,7 +489,13 @@ footer ul li{
         gap: 10px;
         flex-direction: column;
         padding: 5% 0;
+        font-size: xx-large;
+        text-align: center;
 
+    }
+    .left-content h1{
+        font-size: revert;
+        text-align: center;
     }
     .info{
         background-color: #f7f1ff;
@@ -510,17 +524,17 @@ footer ul li{
     }
 
     .section4-img{
-        max-width: 400px;
+        max-width: 300px;
     }
 
     .section3-img{
-        max-width: 400px;
+        max-width: 300px;
     }
     .section7{
         display: flex;
         justify-content: center;
         gap: 100px;
-        margin:50px 0px;
+        margin:2rem;
         padding: 3%;
         flex-direction: column;
     
@@ -541,5 +555,27 @@ footer ul li{
      color: #fff;
      transition: 0.3s;   
      border-radius: 5px;
+    }
+    footer{
+        flex-direction: column;
+        width: auto;
+    text-align: center;
+    }
+    .footer_logo{
+        width: auto;
+    text-align: center;
+    }
+    .footer_logo>p{
+        width: auto;
+    }
+    .footer_links{
+        /* flex-direction: column; */
+        width: auto;
+    }
+    
+    .newsletter{
+        width: auto;
+    justify-content: space-around;
+    display: flex;
     }
   }
