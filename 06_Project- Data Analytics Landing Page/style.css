@@ -7,9 +7,9 @@
 }
 
 .container{
-    border: 2px solid;
-    /* width: fit-content; */
     
+    /* width: fit-content; */
+    overflow-x: hidden;
 }
 
 nav{
@@ -475,7 +475,7 @@ footer ul li{
 @media only screen and (max-width: 480px) {
     *{
         /* width: fit-content; */
-        overflow-x: hidden;
+        
     }
     nav{
         width: auto;
@@ -497,9 +497,13 @@ footer ul li{
         text-align: center;
 
     }
+
     .left-content h1{
-        font-size: revert;
+        /* font-size: revert; */
         text-align: center;
+    }
+    .left-content p{
+        
     }
     .info{
         background-color: #f7f1ff;
