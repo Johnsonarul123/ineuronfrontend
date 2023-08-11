@@ -100,16 +100,24 @@ nav li{
     border:2px solid green;
 
 }
+.white-border{
+    display: none;
+}
 .modern_trend{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5%;
+    /* padding: 5%; */
     gap: 20px;
+
 }
 .modern_trend img{
     width: 190px;
     border-radius: 20px;
+    /* float: right; */
 }
+/* .second-img-mt{
+    float: left;
+} */
 .hosting4{
     border:2px solid green;
     width: 70%;
@@ -164,3 +172,4 @@ footer{
    
     list-style: none;
 }
+
